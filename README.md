@@ -61,4 +61,45 @@ list from the detail page.
 - [Google Shopping API](https://quanticdata.io/collectors/google-shopping-api/) · [Price comparison API](https://quanticdata.io/collectors/price-comparison-api/)
 - [Competitor price monitoring](https://quanticdata.io/competitor-price-monitoring/) · [How to price-watch on Amazon](https://quanticdata.io/blog/how-to-price-watch-on-amazon/)
 
+## Python
+
+The product call without Node. See [`product.py`](product.py):
+
+```bash
+pip install requests
+export QUANTICDATA_API_KEY=qd_live_your_key_here
+python3 product.py B0DPHTLDYK B0DT1KPWHP
+```
+
+## Sample response
+
+A real `amazon_product` run from 4 October 2026 for ASIN `B0DPHTLDYK` on amazon.com. The rows arrive in `payload.results`; one is shown here and the full capture is in [`sample-response.json`](sample-response.json).
+
+```json
+{
+  "asin": "B0DPHTLDYK",
+  "url": "https://www.amazon.com/dp/B0DPHTLDYK",
+  "title": "Nike Women's Revolution 8 Road Running Shoes",
+  "brand": null,
+  "price": "$60.00",
+  "price_value": 60,
+  "list_price": "$75.00",
+  "rating": 4.3,
+  "reviews": 3666,
+  "availability": "In Stock",
+  "seller": null,
+  "delivery": "FREE delivery Friday, October 9 Or Prime members get FREE delivery Tomorrow, October 5.",
+  "categories": [
+    "Clothing, Shoes & Jewelry",
+    "Women",
+    "Shoes",
+    "Athletic",
+    "Running",
+    "Road Running"
+  ],
+  "features": [],
+  "image": "https://m.media-amazon.com/images/I/61i2iYowP2L._AC_SX342_SY445_QL70_FMwebp_.jpg"
+}
+```
+
 MIT licensed.
