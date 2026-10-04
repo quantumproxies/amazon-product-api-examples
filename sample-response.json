@@ -1,0 +1,38 @@
+{
+  "request": {
+    "asins": [
+      "B0DPHTLDYK"
+    ],
+    "country": "us",
+    "max_results": 1
+  },
+  "captured_at": "2026-10-04",
+  "count": 1,
+  "results": [
+    {
+      "asin": "B0DPHTLDYK",
+      "url": "https://www.amazon.com/dp/B0DPHTLDYK",
+      "title": "Nike Women's Revolution 8 Road Running Shoes",
+      "brand": null,
+      "price": "$60.00",
+      "price_value": 60,
+      "list_price": "$75.00",
+      "rating": 4.3,
+      "reviews": 3666,
+      "availability": "In Stock",
+      "seller": null,
+      "delivery": "FREE delivery Friday, October 9 Or Prime members get FREE delivery Tomorrow, October 5.",
+      "categories": [
+        "Clothing, Shoes & Jewelry",
+        "Women",
+        "Shoes",
+        "Athletic",
+        "Running",
+        "Road Running"
+      ],
+      "features": [],
+      "image": "https://m.media-amazon.com/images/I/61i2iYowP2L._AC_SX342_SY445_QL70_FMwebp_.jpg"
+    }
+  ],
+  "note": "Real run. The delivery line is cut at the end of its sentence."
+}
